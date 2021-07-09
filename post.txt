@@ -1,0 +1,87 @@
+POST /post HTTP/1.1
+Host: httpbin.org
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 53
+Origin: http://httpbin.org
+Connection: keep-alive
+Referer: http://httpbin.org/forms/post
+Upgrade-Insecure-Requests: 1
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "comments": "", 
+    "custemail": "", 
+    "custname": "name", 
+    "custtel": "", 
+    "delivery": ""
+  }, 
+  "headers": {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Accept-Language": "en-US,en;q=0.5", 
+    "Content-Length": "53", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "Origin": "http://httpbin.org", 
+    "Referer": "http://httpbin.org/forms/post", 
+    "Upgrade-Insecure-Requests": "1", 
+    "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0", 
+    "X-Amzn-Trace-Id": "Root=1-60e81490-1f8b8ad60f9fce515d8c51e7"
+  }, 
+  "json": null, 
+  "origin": "176.59.6.214", 
+  "url": "http://httpbin.org/post"
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jul 2021 09:26:21 GMT
+Content-Type: application/json
+Content-Length: 828
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: http://httpbin.org
+Access-Control-Allow-Credentials: true
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "{\n  \"args\": {}, \n  \"data\": \"\", \n  \"files\": {}, \n  \"fo": ""
+  }, 
+  "headers": {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Accept-Language": "en-US,en;q=0.5", 
+    "Content-Length": "53", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "Origin": "http://httpbin.org", 
+    "Referer": "http://httpbin.org/forms/post", 
+    "Upgrade-Insecure-Requests": "1", 
+    "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0", 
+    "X-Amzn-Trace-Id": "Root=1-60e8163d-7788baa66da01aca41bf6cf3"
+  }, 
+  "json": null, 
+  "origin": "176.59.6.214", 
+  "url": "http://httpbin.org/post"
+}
+HTTP/1.1 400 Bad Request
+Server: awselb/2.0
+Date: Fri, 09 Jul 2021 09:26:21 GMT
+Content-Type: text/html
+Content-Length: 122
+Connection: close
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+</body>
+</html>
