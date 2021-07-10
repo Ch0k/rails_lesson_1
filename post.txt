@@ -1,10 +1,10 @@
 POST /anything HTTP/1.1
-Host: httpbing.org
-Content-lenght: 9 
+Host: httpbin.org
+Content-lenght: 11
 name=katya
 
 HTTP/1.1 400 Bad Request
-Date: Sat, 10 Jul 2021 07:34:57 GMT
+Date: Sat, 10 Jul 2021 07:41:01 GMT
 Content-Type: text/html
 Content-Length: 169
 Connection: keep-alive
